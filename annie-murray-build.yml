@@ -3,6 +3,9 @@ api: 2
 projects:
   drupal:
     version: "7.39"
+  entity:
+    version: "1.6"
+    subdir: "contrib"
   features:
     version: "2.6"
     subdir: "contrib"

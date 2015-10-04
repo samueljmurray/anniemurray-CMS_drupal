@@ -2,8 +2,13 @@
 $conf['master_version'] = 2;
 $conf['master_modules'] = array(
   'base' => array(
-    'anniemurray_config',
+    // Contributed modules
+    'entity',
     'navbar',
+    'restws',
+
+    // Custom modules
+    'anniemurray_config',
   ),
   'dev' => array(
     'dblog',
