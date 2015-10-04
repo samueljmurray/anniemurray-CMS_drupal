@@ -1,0 +1,18 @@
+## Patches
+#
+# restws-fix-format-extension-2484829-67_1.patch
+# Specifying the resource format via a URL extension (like "node/1.json") no longer works in Drupal >= 7.37
+
+core: "7.x"
+api: 2
+projects:
+  drupal:
+    version: "7.39"
+  features:
+    version: "2.6"
+    subdir: "contrib"
+  restws:
+    version: "2.4"
+    subdir: "contrib"
+    patch:
+      - "https://www.drupal.org/files/issues/restws-fix-format-extension-2484829-67_1.patch"
