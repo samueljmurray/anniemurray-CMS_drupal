@@ -21,24 +21,24 @@
 # effect used on allowed directories below.
 
 # Ignore Drupal default directories and files
-drupal/*.*
-!drupal/*.make
-drupal/includes/*
-drupal/misc/*
-drupal/modules/*
-drupal/profiles/*
-drupal/scripts/*
-drupal/themes/*
-drupal/sites/*
+#*.*
+!*.make
+includes/*
+misc/*
+modules/*
+profiles/*
+scripts/*
+themes/*
+sites/*
 
 # Allow custom modules and features
-!drupal/sites/all
-drupal/sites/all/libraries
-drupal/sites/all/themes
-drupal/sites/all/modules/*
-!drupal/sites/all/modules/custom
-!drupal/sites/all/modules/features
+!sites/all
+sites/all/libraries
+sites/all/themes
+sites/all/modules/*
+!sites/all/modules/custom
+!sites/all/modules/features
 
 # Allow default settings
-!drupal/sites/default
-drupal/sites/default/*.settings.php
+!sites/default
+sites/default/*.settings.php
