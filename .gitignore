@@ -1,6 +1,6 @@
 /*
 !*/
-!*.make
+!*-build.yml
 includes/*
 misc/*
 modules/*
