@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Install file for setting up general configuration in the
+ * Annie Murray CMS.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function anniemurray_config_install() {
+  // Enable Ember as the admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'ember')
+    ->execute();
+  variable_set('admin_theme', 'ember');
+  variable_set('node_admin_theme', '1');
+  variable_set('theme_default', 'ember');
+
+  // Disable bartik theme
+  theme_disable(array('bartik'));
+}

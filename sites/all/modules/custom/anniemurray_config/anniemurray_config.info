@@ -1,0 +1,4 @@
+name = "Annie Murray Configuration"
+description = "Provides general configuration for the Annie Murray CMS."
+core = 7.x
+package = "Annie Murray"
