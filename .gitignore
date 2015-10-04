@@ -1,27 +1,5 @@
-###################################
-# TEMP files for Linux and MacOSx #
-###################################
-.DS_Store
-*~
-
-#############
-# IDE files #
-#############
-.idea/
-.project/
-.settings/
-
-##############################
-# Implementation specific #
-##############################
-
-# Git ignore rules are not taking into
-# consideration directories that its parent
-# has been ignored. This leads to the cascade
-# effect used on allowed directories below.
-
-# Ignore Drupal default directories and files
-#*.*
+/*
+!*/
 !*.make
 includes/*
 misc/*
