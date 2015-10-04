@@ -555,3 +555,9 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
 if (file_exists(dirname(__FILE__) . '/local.settings.php')) {
   include dirname(__FILE__) . '/local.settings.php';
 }
+
+if (file_exists(dirname(__FILE__) . '/master.conf.php')) {
+  include dirname(__FILE__) . '/master.conf.php';
+}
+
+$conf['site_name'] = 'Annie Murray CMS';
