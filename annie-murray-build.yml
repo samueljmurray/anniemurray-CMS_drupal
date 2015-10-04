@@ -6,6 +6,15 @@ projects:
   features:
     version: "2.6"
     subdir: "contrib"
+  libraries:
+    version: "2.2"
+    subdir: "contrib"
+  master:
+    version: "2.0-beta4"
+    subdir: "contrib"
+  navbar:
+    version: "1.6"
+    subdir: "contrib"
   restws:
     version: "2.4"
     subdir: "contrib"
@@ -14,3 +23,19 @@ projects:
   ember:
     version: "2.0-alpha4"
     type: "theme"
+libraries:
+  backbone:
+    download:
+      type: "git"
+      url: "https://github.com/jashkenas/backbone.git"
+      tag: "1.0.0"
+  modernizr:
+    download:
+      type: "git"
+      url: "https://github.com/BrianGilbert/modernizer-navbar.git"
+      revision: "5b89d9225320e88588f1cdc43b8b1e373fa4c60f"
+  underscore:
+    download:
+      type: "git"
+      url: "https://github.com/jashkenas/underscore.git"
+      tag: "1.5.0"
