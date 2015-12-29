@@ -4,6 +4,9 @@ $conf['master_modules'] = array(
   'base' => array(
     // Contributed modules
     'entity',
+    'features',
+    'libraries',
+    'login_destination',
     'navbar',
     'restws',
 
